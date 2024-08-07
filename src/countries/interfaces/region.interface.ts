@@ -1,4 +1,4 @@
-export interface RegionDto {
+export interface RegionInterface {
   countries: string[];
   totalPopulation: number;
 }

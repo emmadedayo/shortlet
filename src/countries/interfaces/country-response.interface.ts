@@ -1,8 +1,8 @@
-import { FormatCountryDetailsDto } from './format-country-details.dto';
+import { CountryFormatInterface } from './country-format.interface';
 
-export interface SearchCountryResponseDto {
+export interface CountryResponseInterface {
   total: number;
   page: number;
   limit: number;
-  data: FormatCountryDetailsDto[];
+  data: CountryFormatInterface[];
 }

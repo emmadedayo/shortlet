@@ -1,6 +1,4 @@
-import { FormatCountryDetailsDto } from './format-country-details.dto';
-
-export interface LanguageDetailsDto {
+export interface LanguageInterface {
   countries: string[];
   totalSpeakers: number;
 }

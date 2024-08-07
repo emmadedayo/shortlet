@@ -1,4 +1,4 @@
-export interface CountryDto {
+export interface CountryInterface {
   name: {
     common: string;
     official: string;

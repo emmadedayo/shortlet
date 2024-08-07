@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3010:3010"
+    environment:
+      - API_URL=https://restcountries.com/v3.1
+      - TIME_OUT=10000
+    volumes:
+      - .:/usr/src/app
